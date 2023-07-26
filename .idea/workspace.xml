@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e51688a7-2607-4b83-aa36-5c681a94de9e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/config/src/main/java/com/auto/config/ConfigApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/config/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/config/src/main/resources/config/account-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/config/src/main/resources/config/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/config/src/main/resources/config/auth-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/config/src/main/resources/config/gateway.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/config/src/main/resources/config/user-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/config/src/main/resources/config/warehouse-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/discovery/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/discovery/src/main/java/com/auto/discovery/DiscoveryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/discovery/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/gateway/src/main/java/com/auto/gateway/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/gateway/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/account-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/account-service/src/main/java/com/auto/account/AccountApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/account-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/account-service/src/test/java/com/auto/account/AccountApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth-service/src/main/java/com/auto/auth/AuthApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth-service/src/main/java/model/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth-service/src/main/java/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth-service/src/main/java/model/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth-service/src/main/java/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth-service/src/test/java/com/auto/auth/AuthApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/user-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/user-service/src/main/java/com/auto/user/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/user-service/src/main/java/com/auto/user/model/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/user-service/src/main/java/com/auto/user/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/user-service/src/main/java/com/auto/user/model/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/user-service/src/main/java/com/auto/user/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/user-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/user-service/src/test/java/com/auto/user/UserApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/warehouse-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/warehouse-service/src/main/java/com/auto/warehouse/WarehouseApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/warehouse-service/src/main/java/model/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/warehouse-service/src/main/java/model/Warehouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/warehouse-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/warehouse-service/src/test/java/com/auto/warehouse/WarehouseApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2T6c6fN6G85QhsCyJVIJAhVIxJH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "E:/projects/autoservice/services/warehouse-service",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\projects\autoservice\services\warehouse-service\src\main\resources" />
+      <recent name="E:\projects\autoservice\services\user-service\src\main\resources" />
+      <recent name="E:\projects\autoservice\services\account-service\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\projects\autoservice\services\user-service\src\main\java\com\auto\user\model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="model" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="JarApplication" />
+        <option value="MavenRunConfiguration" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JAR Application.warehouse-service">
+    <configuration name="account-service" type="JarApplication">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/services/account-service/target/account-service-1.0.0.jar" />
+      <option name="WORKING_DIRECTORY" value="E:\projects\autoservice" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <configuration name="auth-service" type="JarApplication">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/services/auth-service/target/auth-service-0.0.1-SNAPSHOT.jar" />
+      <option name="WORKING_DIRECTORY" value="E:\projects\autoservice" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <configuration name="config" type="JarApplication">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/server/config/target/config-0.0.1-SNAPSHOT.jar" />
+      <option name="WORKING_DIRECTORY" value="E:\projects\autoservice" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <configuration name="discovery" type="JarApplication">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/server/discovery/target/discovery-0.0.1-SNAPSHOT.jar" />
+      <option name="WORKING_DIRECTORY" value="E:\projects\autoservice" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <configuration name="user-service" type="JarApplication">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/services/user-service/target/user-service-0.0.1-SNAPSHOT.jar" />
+      <option name="WORKING_DIRECTORY" value="E:\projects\autoservice" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <configuration name="warehouse-service" type="JarApplication">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/services/warehouse-service/target/warehouse-service-0.0.1-SNAPSHOT.jar" />
+      <option name="WORKING_DIRECTORY" value="E:\projects\autoservice" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <configuration name="auth-service" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/services/auth-service" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="build " type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="package" />
+                <option value="-Dmaven.test.skip=true" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="config" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/server/config" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="discovery" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/server/discovery" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="warehouse-service" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/services/warehouse-service" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JAR Application.config" />
+      <item itemvalue="JAR Application.discovery" />
+      <item itemvalue="JAR Application.auth-service" />
+      <item itemvalue="JAR Application.account-service" />
+      <item itemvalue="JAR Application.user-service" />
+      <item itemvalue="JAR Application.warehouse-service" />
+      <item itemvalue="Maven.auth-service" />
+      <item itemvalue="Maven.warehouse-service" />
+      <item itemvalue="Maven.discovery" />
+      <item itemvalue="Maven.config" />
+      <item itemvalue="Maven.build " />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e51688a7-2607-4b83-aa36-5c681a94de9e" name="Changes" comment="" />
+      <created>1690366797255</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690366797255</updated>
+    </task>
+    <servers />
+  </component>
+</project>
