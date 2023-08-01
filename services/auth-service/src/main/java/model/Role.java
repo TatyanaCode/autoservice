@@ -17,4 +17,8 @@ public class Role  extends BaseEntity{
     private String roleName;
     private List<User> users;
 
+
+    public String getName() {
+        return roleName;
+    }
 }

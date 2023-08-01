@@ -28,4 +28,6 @@ public class BaseEntity {
     @UpdateTimestamp
     private Date updated;
 
+
+
 }

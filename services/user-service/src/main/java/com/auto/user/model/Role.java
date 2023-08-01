@@ -11,6 +11,8 @@ import lombok.NoArgsConstructor;
 
 import java.util.List;
 
+import static org.bouncycastle.asn1.x500.style.RFC4519Style.name;
+
 /**
  * author danilova.tatyana 26.07.2023
  */
@@ -24,4 +26,12 @@ public class Role extends BaseEntity {
     private String roleName;
     @ManyToMany(mappedBy = "roles", fetch = FetchType.LAZY)
     private List<User> users;
+
+//    @Override
+//    public String toString() {
+//        return "Role{" +
+//                "id: " + super.getId() + ", " +
+//                "name: " + name + "}";
+//        }
+
 }

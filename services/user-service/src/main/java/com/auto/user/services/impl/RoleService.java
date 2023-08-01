@@ -1,7 +1,9 @@
 package com.auto.user.services.impl;
 
 import com.auto.user.model.Role;
+import com.auto.user.repository.RoleRepository;
 import com.auto.user.services.AbstractService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -11,6 +13,9 @@ import java.util.List;
  */
 @Service
 public class RoleService implements AbstractService<Role> {
+
+    @Autowired
+    RoleRepository repository;
     @Override
     public List<Role> getAll() {
         return null;
