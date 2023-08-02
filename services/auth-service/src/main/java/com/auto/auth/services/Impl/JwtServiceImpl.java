@@ -1,5 +1,6 @@
-package UserAuthService.Impl;
+package com.auto.auth.services.Impl;
 
+import com.auto.auth.services.JwtService;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
@@ -8,7 +9,7 @@ import io.jsonwebtoken.security.Keys;
 import io.jsonwebtoken.security.SignatureException;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
-import model.Role;
+import com.auto.auth.model.Role;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Service;
@@ -22,14 +23,14 @@ import java.util.*;;
 @Data
 @Service
 @RequiredArgsConstructor
-public class JwtAuthService {
+public class JwtServiceImpl implements JwtService {
     @Autowired
     Environment env;
     private final String secret;
     private final long validityInMilliseconds;
 
 
-    public JwtAuthService(Environment env) {
+    public JwtServiceImpl(Environment env) {
         this.env = env;
         this.secret = env.getProperty("application.jwt.decodeKey");
         this.validityInMilliseconds = Long.parseLong(Objects.requireNonNull(env.getProperty("application.jwt.expired")));

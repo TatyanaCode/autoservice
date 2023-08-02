@@ -1,4 +1,4 @@
-package model;
+package com.auto.auth.model;
 
 /**
  * author danilova.tatyana 26.07.2023

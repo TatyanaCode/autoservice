@@ -1,4 +1,4 @@
-package DAO;
+package com.auto.auth.dao;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
