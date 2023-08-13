@@ -70,7 +70,7 @@ public class JwtServiceImpl implements JwtService {
         List<String> result = new ArrayList<>();
 
         userRoles.forEach(role -> {
-            result.add(role.getName());
+     //       result.add(role.getName());
         });
 
         return result;

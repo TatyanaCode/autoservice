@@ -1,5 +1,6 @@
 package model;
 
+import ch.qos.logback.core.status.Status;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
@@ -26,7 +27,14 @@ public class BaseEntity {
     private Date created;
 
     @LastModifiedDate
-
     @UpdateTimestamp
     private Date updated;
+
+
+
+
+
+
+
+
 }

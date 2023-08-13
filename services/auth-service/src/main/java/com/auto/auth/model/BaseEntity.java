@@ -7,6 +7,7 @@ import org.hibernate.annotations.UpdateTimestamp;
 import org.springframework.data.annotation.LastModifiedDate;
 
 import java.util.Date;
+import java.util.List;
 
 /**
  * author danilova.tatyana 26.07.2023

@@ -1,9 +1,7 @@
 package com.auto.auth.services;
 
-import com.auto.auth.model.Role;
 import com.auto.auth.model.User;
 
-import java.util.List;
 import java.util.Optional;
 
 /**
@@ -11,6 +9,6 @@ import java.util.Optional;
  */
 
 public interface UserService {
+    Optional<User> findUserByUsername(String username) ;
     void saveUser(User user);
-    Optional<User> getUser(String username);
 }

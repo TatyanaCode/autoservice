@@ -1,7 +1,6 @@
 package com.auto.auth.dao;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Table;
+import com.auto.auth.model.User;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -12,10 +11,14 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity
-@Table (name = "Users")
-public class AuthUserDAO {
+public class UserDAO {
     private String username;
     private String password;
 
+    public User toUser() {
+        User user = new User();
+        user.setUsername(this.username);
+        user.setPassword(this.password);
+        return user;
+    }
 }

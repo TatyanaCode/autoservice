@@ -4,24 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e51688a7-2607-4b83-aa36-5c681a94de9e" name="Changes" comment="1. Настройка конфигураций сервисов.&#10;2. Создание моделей сервисов">
-      <change afterPath="$PROJECT_DIR$/services/auth-service/src/main/java/DAO/AuthUserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/auth-service/src/main/java/UserAuthService/Impl/JwtAuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/auth-service/src/main/java/UserAuthService/JwtAuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/auth-service/src/main/java/UserAuthService/UserAuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/auth-service/src/main/java/repository/UserAuthRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/user-service/src/main/java/com/auto/user/repository/RoleRepository.java" afterDir="false" />
+    <list default="true" id="e51688a7-2607-4b83-aa36-5c681a94de9e" name="Changes" comment="New changelist11">
+      <change afterPath="$PROJECT_DIR$/services/auth-service/src/main/java/com/auto/auth/controllers/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth-service/src/main/java/com/auto/auth/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/warehouse-service/src/main/java/com/auto/warehouse/service/HistoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/warehouse-service/src/main/java/com/auto/warehouse/service/WarehouseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/warehouse-service/src/main/java/com/auto/warehouse/service/impl/HistoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/warehouse-service/src/main/java/com/auto/warehouse/service/impl/WarehouseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/warehouse-service/src/main/java/com/auto/warehouse/warehouseDAO/ToolsDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/warehouse-service/src/main/java/model/Details.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/warehouse-service/src/main/java/model/Tools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/warehouse-service/src/main/java/model/enums/Status.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/config/src/main/resources/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/config/src/main/resources/config/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/auth-service/src/main/java/com/auto/auth/AuthApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/auth-service/src/main/java/auto/auth/AuthApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/auth-service/src/main/java/model/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/auth-service/src/main/java/model/BaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/auth-service/src/main/java/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/auth-service/src/main/java/model/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/auth-service/src/main/java/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/auth-service/src/main/java/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/auth-service/src/main/java/com/auto/auth/controllers/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/auth-service/src/main/java/com/auto/auth/dao/AuthUserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/auth-service/src/main/java/com/auto/auth/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/auth-service/src/main/java/com/auto/auth/model/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/auth-service/src/main/java/com/auto/auth/model/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/auth-service/src/main/java/com/auto/auth/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/auth-service/src/main/java/com/auto/auth/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/auth-service/src/main/java/com/auto/auth/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/auth-service/src/main/java/com/auto/auth/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/auth-service/src/main/java/com/auto/auth/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/auth-service/src/main/java/com/auto/auth/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/auth-service/src/main/java/com/auto/auth/services/Impl/JwtServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/auth-service/src/main/java/com/auto/auth/services/Impl/JwtServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/auth-service/src/main/java/com/auto/auth/services/Impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/auth-service/src/main/java/com/auto/auth/services/Impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/auth-service/src/main/java/com/auto/auth/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/auth-service/src/main/java/com/auto/auth/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/user-service/src/main/java/com/auto/user/repository/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/user-service/src/main/java/com/auto/user/repository/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/warehouse-service/src/main/java/model/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/warehouse-service/src/main/java/model/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/warehouse-service/src/main/java/model/Warehouse.java" beforeDir="false" />
     </list>
-    <list id="ac0d43b0-1826-400c-ab1f-715a63377de6" name="New changelist" comment="1/ Создание абстрактного сервиса и абстрактного конторллера.">
-      <change beforePath="$PROJECT_DIR$/services/user-service/src/main/java/com/auto/user/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/user-service/src/main/java/com/auto/user/model/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/user-service/src/main/java/com/auto/user/services/impl/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/user-service/src/main/java/com/auto/user/services/impl/RoleService.java" afterDir="false" />
-    </list>
+    <list id="dffdc690-5036-47c9-a06e-f5d1fd5fa7c6" name="New changelist" comment="New changelist" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,8 +38,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Record" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -56,13 +66,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "E:/projects/autoservice/services/user-service/target/user-service-0.0.1-SNAPSHOT.jar"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/projects/autoservice/services/auth-service&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.auto.auth" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -71,7 +86,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JAR Application.user-service">
+  <component name="RunManager" selected="Maven.auth-service">
     <configuration name="auth-service" type="JarApplication">
       <option name="JAR_PATH" value="$PROJECT_DIR$/services/auth-service/target/auth-service-0.0.1-SNAPSHOT.jar" />
       <option name="WORKING_DIRECTORY" value="E:\projects\autoservice" />
@@ -116,7 +131,7 @@
               <map />
             </option>
             <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/services/order-service" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/services/auth-service" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
@@ -205,21 +220,53 @@
       <item itemvalue="JAR Application.auth-service" />
       <item itemvalue="JAR Application.config" />
       <item itemvalue="JAR Application.discovery" />
+      <item itemvalue="Maven.config" />
       <item itemvalue="Maven.discovery" />
       <item itemvalue="Maven.auth-service" />
       <item itemvalue="Maven.user-service" />
-      <item itemvalue="Maven.config" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e51688a7-2607-4b83-aa36-5c681a94de9e" name="Changes" comment="1. Настройка конфигураций сервисов.&#10;2. Создание моделей сервисов" />
+      <changelist id="dffdc690-5036-47c9-a06e-f5d1fd5fa7c6" name="New changelist" comment="" />
       <created>1690893629574</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1690893629574</updated>
     </task>
+    <task id="LOCAL-00001" summary="*Подключение JWT токена к auth-service">
+      <created>1690899563239</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690899563239</updated>
+    </task>
+    <task id="LOCAL-00002" summary="New changelist">
+      <created>1690963270779</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690963270779</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="*Подключение JWT токена к auth-service" />
+    <MESSAGE value="New changelist" />
+    <option name="LAST_COMMIT_MESSAGE" value="New changelist" />
   </component>
 </project>
