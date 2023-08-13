@@ -1,8 +1,7 @@
-package model;
+package com.auto.warehouse.model;
 
 import ch.qos.logback.core.status.Status;
 import jakarta.persistence.Column;
-import model.BaseEntity;
 
 /**
  * author danilova.tatyana 11.08.2023

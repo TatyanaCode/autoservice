@@ -1,4 +1,4 @@
-package com.auto.warehouse.service.impl;
+package com.auto.warehouse.impl;
 
 import com.auto.warehouse.warehouseDAO.ToolsDAO;
 

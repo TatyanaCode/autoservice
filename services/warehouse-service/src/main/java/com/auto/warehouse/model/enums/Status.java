@@ -1,4 +1,4 @@
-package model.enums;
+package com.auto.warehouse.model.enums;
 
 /**
  * author danilova.tatyana 11.08.2023

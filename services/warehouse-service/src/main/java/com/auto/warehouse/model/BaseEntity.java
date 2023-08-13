@@ -1,4 +1,4 @@
-package model;
+package com.auto.warehouse.model;
 
 import ch.qos.logback.core.status.Status;
 import jakarta.persistence.GeneratedValue;
